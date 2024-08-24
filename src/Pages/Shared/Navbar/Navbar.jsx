@@ -1,7 +1,7 @@
 import { MdOutlinePhoneIphone } from "react-icons/md";
-import logo from "../../../assets/logo-1.png";
+import logo from "../../../assets/WhatsApp Image 2024-08-19 at 18.56.57_1c51588e.jpg";
 import { IoIosArrowDown, IoMdMailOpen } from "react-icons/io";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { IoMenuSharp } from "react-icons/io5";
 import { useState } from "react";
 
@@ -137,7 +137,7 @@ const Navbar = () => {
             : "p-[15px] px-6 hover:bg-[#283275]"
         }
       >
-        Our Official 
+        Our Official
       </NavLink>
       <NavLink
         to="/our-activity"
@@ -150,6 +150,30 @@ const Navbar = () => {
         }
       >
         Our Activity
+      </NavLink>
+      <NavLink
+        to="/live"
+        className={({ isActive, isPending }) =>
+          isPending
+            ? "pending"
+            : isActive
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
+        }
+      >
+        Live
+      </NavLink>
+      <NavLink
+        to="/document"
+        className={({ isActive, isPending }) =>
+          isPending
+            ? "pending"
+            : isActive
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
+        }
+      >
+        Document
       </NavLink>
     </>
   );
@@ -171,15 +195,15 @@ const Navbar = () => {
         <p className=" section p-4">GST No. 02AFQPG3910A1Z6</p>
       </div>
       {/* logo and phone number  */}
-      <div className="flex flex-col lg:flex-row mt-4 items-center gap-6 justify-between section">
-        <img src={logo} alt="" />
+      <div className="flex flex-col lg:flex-row p-2 items-center gap-6 justify-between section">
+        <Link to="/"><img className="w-40" src={logo} alt="" /></Link>
         <div className="flex flex-col font-bold gap-3 md:flex-row items-center">
           <p className="flex items-center gap-1">
-            <MdOutlinePhoneIphone /> +91-9316818364
+            <MdOutlinePhoneIphone /> 01925921227
           </p>
           <p className="flex items-center gap-1">
             <IoMdMailOpen />
-            info@swisskem.com
+            info@InthyInternational.com
           </p>
         </div>
       </div>

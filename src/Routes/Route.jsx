@@ -6,6 +6,8 @@ import ContactUs from "../Pages/ContactUs/ContactUs";
 import AllProducts from "../Pages/AllProducts/AllProducts";
 import OurOfficial from "../Pages/OurOfficial/OurOfficial";
 import OurActivity from "../Pages/OurActivity/OurActivity";
+import Live from "../Pages/Live/Live";
+import DocumentPage from "../Pages/DocumentPage/DocumentPage";
 
 const Route = createBrowserRouter([
   {
@@ -35,6 +37,14 @@ const Route = createBrowserRouter([
       {
         path: "/our-activity",
         element: <OurActivity />,
+      },
+      {
+        path: "/live",
+        element: <Live />,
+      },
+      {
+        path: "/document",
+        element: <DocumentPage />,
       },
     ],
   },

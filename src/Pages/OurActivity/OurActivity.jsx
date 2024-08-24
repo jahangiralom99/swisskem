@@ -10,7 +10,7 @@ const OurActivity = () => {
   return (
     <div className="section">
       <h2 className="text-3xl font-bold text-center mt-6">EVENTS</h2>
-      <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mt-8 gap-3 mb-8">
+      <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8 gap-3 mb-8">
         <img className="border p-1 w-full shadow-" src={img1} alt="" />
         <img className="border p-1 w-full shadow-" src={img2} alt="" />
         <img className="border p-1 w-full shadow-" src={img3} alt="" />

@@ -64,15 +64,14 @@ const Footer = () => {
             <p className="">
               Address:
               <br />
-              Swisskem Healthcare, Khasra No. 77/3, Bathri, Tehsil Haroli,
-              Distt. Una-174301 (Himachal Pradesh), India.
+              7/16 Block -C, Tajmohol Road, Mohammadpur, Dhaka -1207
             </p>
             <p className=" mt-4">
               E-Mail:
               <br />
-              info@swisskem.com
+              md.humayunkabir282@yahoo.com
               <br />
-              info.swisskem@yahoo.com
+              info@InthyInternational.com
             </p>
           </div>
           <div>
@@ -80,7 +79,7 @@ const Footer = () => {
               <span className="text-[#34cedacc]">Locate</span> Us
             </h3>
             <hr className="my-4 border-2 border-[#34cedacc] w-8 " />
-            <iframe
+            {/* <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.148921875983!2d76.11617571490608!3d31.52508678138012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391bfffc7b2f4b2f%3A0x32f2a5f0d29f9cf1!2sSwisskem%20Healthcare!5e0!3m2!1sen!2sin!4v1628490981610!5m2!1sen!2sin"
               width="100%"
               height="200"
@@ -88,13 +87,23 @@ const Footer = () => {
               loading="lazy"
               className="rounded-lg"
               title="Swisskem Healthcare Location"
+            ></iframe> */}
+            <iframe
+              // className="w-full h-96"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5615430464973!2d90.3586319248461!3d23.763009988293057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c19be80d3f95%3A0x7aa89c0537e6dd47!2s17%2F11%2CBlock%20C%2CTajmahal%20road%2CMohammadpur%2CDhaka!5e0!3m2!1sen!2sbd!4v1724072433624!5m2!1sen!2sbd"
+              width="100%"
+              height="200"
+              allowFullScreen=""
+              loading="lazy"
+              className="rounded-lg"
+              title="Tajmohol Road, Mohammadpur Location"
             ></iframe>
           </div>
         </div>
-        <div className="text-center p-5 bg-white text-sm text-gray-400 mt-8">
+        <div className="text-center p-5 bg-white font-bold text-[#283275] mt-8">
           <p>
-            &copy; 2024 Swisskem Healthcare. All rights reserved. Powered By :
-            Point Internet Services
+            &copy; 2024 Inthy International. All rights reserved. Powered By :
+            Ionic Corporation
           </p>
         </div>
       </footer>

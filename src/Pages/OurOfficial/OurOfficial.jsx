@@ -8,7 +8,7 @@ import img6 from "../../assets/07-Jubayer-al-Mahmud_1-188x300.jpg";
 const OurOfficial = () => {
   return (
     <div className="section p-9">
-      <h1 className="text-2xl font-bold ">Our Employee</h1>
+      <h1 className="text-3xl font-bold text-center mt-6">Our Employee</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-5 justify-items-center lg:grid-cols-6 mt-8">
         <img className="w-full" src={img1} alt="MD-Gias-Uddin" />
         <img className="w-full" src={img2} alt="Ahnaf-Ajmain-Zarif" />

@@ -33,27 +33,23 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <p className="text-gray-900 font-semibold">
-                      Mr. Vipan Grover
+                      Md Humayun kabir
                     </p>
-                    <p className="text-gray-700">+91-9316818364</p>
-                    <p className="text-gray-900 font-semibold mt-2">
-                      Mr. Amit Grover
-                    </p>
-                    <p className="text-gray-700">+91-9357606500</p>
+                    <p className="text-gray-700">01925921227</p>
+                    
                   </div>
                 </div>
               </div>
               {/* Address Section */}
               <div className="bg-gray-100 p-5 rounded-lg">
                 <div className="flex items-center space-x-4">
-                  <div className="flex items-center justify-center w-16 h-12 bg-teal-500 text-white rounded-full">
+                  <div className="flex items-center justify-center w-12 h-12 bg-teal-500 text-white rounded-full">
                     <FaLocationDot />
                   </div>
                   <div>
                     <p className="text-gray-900 font-semibold">Address</p>
                     <p className="text-gray-700">
-                      Swisskem Healthcare, Khasra No. 77/3, Bathri, Tehsil
-                      Haroli, Distt. Una-174301 (Himachal Pradesh), India.
+                      7/16 Block -C, Tajmohol Road, Mohammadpur, Dhaka -1207
                     </p>
                   </div>
                 </div>
@@ -66,8 +62,10 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <p className="text-gray-900 font-semibold">E-Mail</p>
-                    <p className="text-gray-700">info.swisskem@yahoo.com</p>
-                    <p className="text-gray-700">info@swisskem.com</p>
+                    <p className="text-gray-700">
+                      md.humayunkabir282@yahoo.com
+                    </p>
+                    <p className="text-gray-700">info@InthyInternational.com</p>
                   </div>
                 </div>
               </div>
