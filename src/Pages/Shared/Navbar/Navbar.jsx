@@ -1,6 +1,6 @@
 import { MdOutlinePhoneIphone } from "react-icons/md";
 import logo from "../../../assets/logo-1.png";
-import { IoMdMailOpen } from "react-icons/io";
+import { IoIosArrowDown, IoMdMailOpen } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 import { IoMenuSharp } from "react-icons/io5";
 import { useState } from "react";
@@ -15,8 +15,8 @@ const Navbar = () => {
           isPending
             ? "pending"
             : isActive
-            ? "active bg-[#283275] p-3 px-6"
-            : "p-3 hover:bg-[#283275] px-6"
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] hover:bg-[#283275] px-6"
         }
       >
         Home
@@ -27,59 +27,129 @@ const Navbar = () => {
           isPending
             ? "pending"
             : isActive
-            ? "active bg-[#283275] p-3 px-6"
-            : "p-3 px-6 hover:bg-[#283275]"
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
         }
       >
         About Us
       </NavLink>
-      <NavLink
+      {/* <NavLink
         to="/f"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
             : isActive
-            ? "active bg-[#283275] p-3 px-6"
-            : "p-3 px-6 hover:bg-[#283275]"
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
         }
       >
         Our Products
-      </NavLink>
+      </NavLink> */}
       <NavLink
-        to="/f"
+        to="/all-product"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
             : isActive
-            ? "active bg-[#283275] p-3 px-6"
-            : "p-3 px-6 hover:bg-[#283275]"
+            ? "group active bg-[#283275] p-[15px] px-6 "
+            : "group p-[15px] px-6 hover:bg-[#283275]"
+        }
+      >
+        <ul className="relative">
+          <li className="flex uppercase items-center gap-5">
+            Our Products <IoIosArrowDown />
+          </li>
+          <ul className="absolute bg-[#34cedacc] bg-opacity-60 top-[31px] lg:-left-6 mt-2 z-[9] opacity-0 group-hover:opacity-100 hover:transition-opacity hover:duration-300 hidden group-hover:block border text-white">
+            <div className="lg:w-96 ">
+              <li className="flex flex-col  ">
+                <NavLink
+                  to="/all-product"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group p-3 border-b border-[#1cb4bfcc] bg-[#283275]"
+                      : " hover:bg-[#283275] p-3 group border-b border-[#1cb4bfcc]"
+                  }
+                >
+                  All Product
+                </NavLink>
+                <NavLink
+                  to="/dsd"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group p-3 border-b border-[#1cb4bfcc] bg-[#283275]"
+                      : " hover:bg-[#283275] p-3 group border-b border-[#1cb4bfcc]"
+                  }
+                >
+                  INTHYON SOAP
+                </NavLink>
+                <NavLink
+                  to="/f"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group p-3 border-b border-[#1cb4bfcc] bg-[#283275]"
+                      : " hover:bg-[#283275] p-3 group border-b border-[#1cb4bfcc]"
+                  }
+                >
+                  INTHYSUN Aqua Gel
+                </NavLink>
+              </li>
+            </div>
+          </ul>
+        </ul>
+      </NavLink>
+      <NavLink
+        to="/quality"
+        className={({ isActive, isPending }) =>
+          isPending
+            ? "pending"
+            : isActive
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
         }
       >
         Quality
       </NavLink>
       <NavLink
-        to="/f"
+        to="/contact-us"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
             : isActive
-            ? "active bg-[#283275] p-3 px-6"
-            : "p-3 px-6 hover:bg-[#283275]"
-        }
-      >
-        Infrastructure
-      </NavLink>
-      <NavLink
-        to="/f"
-        className={({ isActive, isPending }) =>
-          isPending
-            ? "pending"
-            : isActive
-            ? "active bg-[#283275] p-3 px-6"
-            : "p-3 px-6 hover:bg-[#283275]"
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
         }
       >
         Contact us
+      </NavLink>
+      <NavLink
+        to="/our-official"
+        className={({ isActive, isPending }) =>
+          isPending
+            ? "pending"
+            : isActive
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
+        }
+      >
+        Our Official 
+      </NavLink>
+      <NavLink
+        to="/our-activity"
+        className={({ isActive, isPending }) =>
+          isPending
+            ? "pending"
+            : isActive
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
+        }
+      >
+        Our Activity
       </NavLink>
     </>
   );
@@ -93,7 +163,9 @@ const Navbar = () => {
         <IoMenuSharp className="text-5xl text-white" />
       </div>
       {open ? (
-        <div className="flex flex-col lg:hidden text-white bg-[#1ad7e6]">{navLinks}</div>
+        <div className="flex flex-col lg:hidden text-white bg-[#1ad7e6]">
+          {navLinks}
+        </div>
       ) : null}
       <div className="bg-[#1ad7e6] text-center lg:text-start">
         <p className=" section p-4">GST No. 02AFQPG3910A1Z6</p>
@@ -113,7 +185,9 @@ const Navbar = () => {
       </div>
       {/* navbar 2  */}
       <div className="bg-[#1ad7e6] hidden lg:block">
-        <div className="section p-3 text-white uppercase">{navLinks}</div>
+        <div className="section flex items-center text-white uppercase">
+          {navLinks}
+        </div>
       </div>
     </nav>
   );

@@ -36,7 +36,7 @@ const Product = () => {
           </h2>
         </div>
         <hr className="my-4 border-blue-300 w-16 mx-auto" />
-        <div className="max-w-7xl mt-8 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="max-w-7xl mt-8 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {products.map((product, index) => (
             <div key={index} className="bg-white overflow-hidden">
               <img

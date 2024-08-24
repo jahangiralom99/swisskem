@@ -14,3 +14,11 @@
 .section {
   @apply max-w-screen-xl mx-auto px-5;
 }
+
+.shadow- {
+  box-shadow: 1px 1px black;
+}
+.shadow-:hover {
+  @apply transition-all duration-300;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
