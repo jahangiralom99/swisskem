@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import image from "../../assets/swiss45.webp";
+import image from "../../assets/2-1.png";
 import ReactImageMagnify from "react-image-magnify";
 
 const ProductDetails = () => {
@@ -7,7 +7,7 @@ const ProductDetails = () => {
     <div className="section">
       <Link
         to="/product/detail"
-        className="flex flex-col items-center md:flex-row md:items-start md:space-x-8 bg-white mt-12"
+        className="flex flex-col md:flex-row md:items-start md:space-x-8 bg-white mt-12"
       >
         <div className="md:flex-1">
           <ReactImageMagnify
@@ -17,7 +17,6 @@ const ProductDetails = () => {
                 alt: "Wristwatch by Ted Baker London",
                 isFluidWidth: true,
                 src: image,
-                width: 100,
               },
               largeImage: {
                 src: image,

@@ -98,6 +98,66 @@ const Navbar = () => {
                 >
                   INTHYSUN Aqua Gel
                 </NavLink>
+                <NavLink
+                  to="/product/detail"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group p-3 border-b border-[#1cb4bfcc] bg-[#283275]"
+                      : " hover:bg-[#283275] p-3 group border-b border-[#1cb4bfcc]"
+                  }
+                >
+                  INTHYZOL CREAM
+                </NavLink>
+                <NavLink
+                  to="/product/detail"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group p-3 border-b border-[#1cb4bfcc] bg-[#283275]"
+                      : " hover:bg-[#283275] p-3 group border-b border-[#1cb4bfcc]"
+                  }
+                >
+                  INTHYZOL SOAP
+                </NavLink>
+                <NavLink
+                  to="/product/detail"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group p-3 border-b border-[#1cb4bfcc] bg-[#283275]"
+                      : " hover:bg-[#283275] p-3 group border-b border-[#1cb4bfcc]"
+                  }
+                >
+                  INTHYZOL SHAMPOO
+                </NavLink>
+                <NavLink
+                  to="/product/detail"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group p-3 border-b border-[#1cb4bfcc] bg-[#283275]"
+                      : " hover:bg-[#283275] p-3 group border-b border-[#1cb4bfcc]"
+                  }
+                >
+                  INTHYGLOW CREAM
+                </NavLink>
+                <NavLink
+                  to="/product/detail"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "group p-3 border-b border-[#1cb4bfcc] bg-[#283275]"
+                      : " hover:bg-[#283275] p-3 group border-b border-[#1cb4bfcc]"
+                  }
+                >
+                  INTHYGLOW FACEWASH
+                </NavLink>
               </li>
             </div>
           </ul>
@@ -196,7 +256,9 @@ const Navbar = () => {
       </div>
       {/* logo and phone number  */}
       <div className="flex flex-col lg:flex-row p-2 items-center gap-6 justify-between section">
-        <Link to="/"><img className="w-40" src={logo} alt="" /></Link>
+        <Link to="/">
+          <img className="w-40" src={logo} alt="" />
+        </Link>
         <div className="flex flex-col font-bold gap-3 md:flex-row items-center">
           <p className="flex items-center gap-1">
             <MdOutlinePhoneIphone /> 01925921227
