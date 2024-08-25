@@ -13,7 +13,7 @@ const AllProducts = () => {
       <h1 className="text-2xl font-semibold">Products</h1>
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mt-8 place-content-center gap-6 mb-12">
         <Link
-          to="/product1"
+          to="/product/detail"
           className="text-center border rounded-lg p-3 hover:shadow"
         >
           <img className="md:w-72 inline" src={image3} alt="INTHYON SOAP" />
@@ -21,7 +21,7 @@ const AllProducts = () => {
           <p className="mt-3">Skin lightning & Brightening Soap</p>
         </Link>
         <Link
-          to="/product"
+          to="/product/detail"
           className="text-center md:w-96 border rounded-lg p-3 hover:shadow"
         >
           <img className="md:w-72 inline" src={image6} alt="Melagm-EK Cream" />
@@ -31,7 +31,7 @@ const AllProducts = () => {
           </p>
         </Link>
         <Link
-          to="/product2"
+          to="/product/detail"
           className="text-center border rounded-lg p-3 hover:shadow"
         >
           <img className="md:w-72 inline" src={image7} alt="Melagm-EK Cream" />
@@ -39,7 +39,7 @@ const AllProducts = () => {
           <p className="mt-3">Skin lightning & Brightening Soap</p>
         </Link>
         <Link
-          to="/product3"
+          to="/product/detail"
           className="text-center border rounded-lg p-3 hover:shadow"
         >
           <img className="md:w-72 inline" src={image5} alt="Melagm-EK Cream" />
@@ -47,7 +47,7 @@ const AllProducts = () => {
           <p className="mt-3">Antibacterial & Antifungal Soap</p>
         </Link>
         <Link
-          to="/product4"
+          to="/product/detail"
           className="text-center  border rounded-lg p-3 hover:shadow"
         >
           <img className="md:w-72 inline" src={image4} alt="Melagm-EK Cream" />
@@ -55,7 +55,7 @@ const AllProducts = () => {
           <p className="mt-3">Anti-Dandruff Treatment</p>
         </Link>
         <Link
-          to="/product5"
+          to="/product/detail"
           className="text-center border rounded-lg p-3 hover:shadow"
         >
           <img className="md:w-72 inline" src={image1} alt="INTHYGLOW CREAM" />
@@ -63,7 +63,7 @@ const AllProducts = () => {
           <p className="mt-3">Skin Glowing lightning & whitening Cream</p>
         </Link>
         <Link
-          to="/product6"
+          to="/product/detail"
           className="text-center border rounded-lg p-3 hover:shadow"
         >
           <img

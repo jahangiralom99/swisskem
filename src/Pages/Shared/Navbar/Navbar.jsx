@@ -22,7 +22,7 @@ const Navbar = () => {
         Home
       </NavLink>
       <NavLink
-        to="/f"
+        to="/about-us"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
@@ -75,7 +75,7 @@ const Navbar = () => {
                   All Product
                 </NavLink>
                 <NavLink
-                  to="/dsd"
+                  to="/product/detail"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -87,7 +87,7 @@ const Navbar = () => {
                   INTHYON SOAP
                 </NavLink>
                 <NavLink
-                  to="/f"
+                  to="/product/detail"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
