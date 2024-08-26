@@ -4,9 +4,7 @@ import ReactImageMagnify from "react-image-magnify";
 const ProductDetails1 = () => {
   return (
     <div className="section">
-      <div
-        className="flex flex-col md:flex-row md:items-start md:space-x-8 bg-white mt-12"
-      >
+      <div className="flex flex-col md:flex-row md:items-start md:space-x-8 bg-white mt-12">
         <div className="md:flex-1">
           <ReactImageMagnify
             enlargedImagePosition="over"
