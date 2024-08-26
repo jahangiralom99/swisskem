@@ -9,7 +9,9 @@ import OurActivity from "../Pages/OurActivity/OurActivity";
 import Live from "../Pages/Live/Live";
 import DocumentPage from "../Pages/DocumentPage/DocumentPage";
 import AboutUs from "../Pages/AboutUs/AboutUs";
-import ProductDetails from "../Components/ProductDetails/ProductDetails";
+import ProductDetails1 from "../Components/ProductDetails/ProductDetails1";
+import ProductDetails2 from "../Components/ProductDetails/ProductDetails2";
+import ProductDetails3 from "../Components/ProductDetails/ProductDetails3";
 
 const Route = createBrowserRouter([
   {
@@ -29,8 +31,16 @@ const Route = createBrowserRouter([
         element: <AllProducts />,
       },
       {
-        path: "/product/detail",
-        element: <ProductDetails />,
+        path: "/product/details1",
+        element: <ProductDetails1 />,
+      },
+      {
+        path: "/product/details2",
+        element: <ProductDetails2 />,
+      },
+      {
+        path: "/product/details3",
+        element: <ProductDetails3 />,
       },
       {
         path: "/quality",

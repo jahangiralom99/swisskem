@@ -1,12 +1,10 @@
-import { Link } from "react-router-dom";
 import image from "../../assets/2-1.png";
 import ReactImageMagnify from "react-image-magnify";
 
-const ProductDetails = () => {
+const ProductDetails1 = () => {
   return (
     <div className="section">
-      <Link
-        to="/product/detail"
+      <div
         className="flex flex-col md:flex-row md:items-start md:space-x-8 bg-white mt-12"
       >
         <div className="md:flex-1">
@@ -23,13 +21,6 @@ const ProductDetails = () => {
                 width: 1200,
                 height: 600,
               },
-              enlargedImageContainerDimensions: {
-                width: 400,
-                height: 100,
-              },
-              enlargedImageContainerStyle: {
-                zIndex: 1000,
-              },
             }}
           />
           {/* <img
@@ -39,66 +30,81 @@ const ProductDetails = () => {
           /> */}
         </div>
         <div className="md:flex-1 text-left mt-4 md:mt-0">
-          <h2 className="text-2xl font-semibold text-teal-600">
-            Olimato Emollient Oil
-          </h2>
+          <h2 className="text-xl font-semibold text-teal-600">INTHYON SOAP</h2>
+          <h4 className="text-sm">
+            Water Resistant & Oil Free Micronized Sunscreen Aqua Gel
+          </h4>
           <p className="text-sm text-gray-600 mt-2">
-            <strong>INGREDIENTS :</strong> Olive Oil, Caprylic Capric
-            Triglycerides, Isopropyl Myristate, Butylated Hydroxytoluene, Colour
-            Quinoline Yellow S.S C.I. No. (47000) & Perfume.
+            <strong>INGREDIENTS :</strong> Melasma, Age Spots, Hyper
+            Pigmentation, Brightening & Lightening, Appearance of Dark Spots,
+            Produces Collagen, Post Acne Black Spots, Skin Damage From Sunlight,
+            Repair & Help Improve The Dull, Rejuvenation, Anti-Aging, Out
+            Looking Blank Problem, Hyper-Pigmentation Spots, Protect Skin From
+            Dryness, Maintain Moisture Level, Repair Skin, Lighten Sports,
+            Impove Uneven Skin Tone.
           </p>
-          <div className="mt-4">
-            <h3 className="text-lg font-semibold text-teal-600">
-              For Dry Skin
-            </h3>
+          <div className="mt-2">
             <p className="text-sm text-gray-600 mt-2">
-              - Massaging your skin daily with olive oil is an excellent way to
-              combat dry or flaky skin caused by harsh weather.
+              <strong className="text-teal-600">COMPOSITION :</strong>{" "}
+              L-Glutathione, Kojic Acid Dipalmitate, Arbutin point Vitamin E,
+              Aloe Vera, Titanium Dioxide, Soap Noodles, Fragrance
             </p>
-
-            <h3 className="text-lg font-semibold text-teal-600 mt-4">
-              For Muscle Spasms
-            </h3>
             <p className="text-sm text-gray-600 mt-2">
-              - Massage therapy on its own helps to relieve pain, aches, and
-              muscle spasms.
+              <strong className="text-[#742b91]">DESCRIPTION :</strong> A skin
+              whitening soap works by removing melanin from your skin’s
+              epidermal layer, making it look white and fairer then other areas
+              on the body. Furthermore, this type of soap Works by removing the
+              dead calls on your face or body and giving it a fresh look.
             </p>
-
-            <h3 className="text-lg font-semibold text-teal-600 mt-4">
-              For Head Massage
-            </h3>
             <p className="text-sm text-gray-600 mt-2">
-              - Olive oil helps to heal dry, flaky scalp conditions such as
-              dandruff. Scalp massage with Olive oil promotes healthier,
-              shinier, and more manageable hair.
+              <strong className="text-[#742b91]">
+                Kojic Acid Dipalmitate:
+              </strong>{" "}
+              A skin whitening soap works by removing melanin from your skin’s
+              epidermal layer, making it look white and fairer then other areas
+              on the body. Furthermore, this type of soap Works by removing the
+              dead calls on your face or body and giving it a fresh look.
             </p>
-
-            <ul className="list-disc list-inside text-sm text-gray-600 mt-4">
-              <li>Moisturize skin</li>
-              <li>Build Strong Fingernails</li>
-              <li>Prevent Hair Loss</li>
-              <li>Relieve Pan Spasm</li>
-            </ul>
-
+            <p className="text-sm text-gray-600 mt-2">
+              <strong className="text-red-500">Vitamin E:</strong> A skin
+              whitening soap works by removing melanin from your skin’s
+              epidermal layer, making it look white and fairer then other areas
+              on the body. Furthermore, this type of soap Works by removing the
+              dead calls on your face or body and giving it a fresh look.
+            </p>
+            <p className="text-sm text-gray-600 mt-2">
+              <strong className="text-[#00a54f]">L-Glutathione: </strong> A skin
+              whitening soap works by removing melanin from your skin’s
+              epidermal layer, making it look white and fairer then other areas
+              on the body. Furthermore, this type of soap Works by removing the
+              dead calls on your face or body and giving it a fresh look.
+            </p>
+            <p className="text-sm text-gray-600 mt-2">
+              <strong className="text-red-900">DIRECTION OF USE : </strong> A
+              skin whitening soap works by removing melanin from your skin’s
+              epidermal layer, making it look white and fairer then other areas
+              on the body. Furthermore, this type of soap Works by removing the
+              dead calls on your face or body and giving it a fresh look.
+            </p>
+            <p className="text-sm text-gray-600 mt-2">
+              <strong className="text-red-500">WARNINIGS : </strong> A skin
+              whitening soap works by removing melanin from your skin’s
+              epidermal layer, making it look white and fairer then other areas
+              on the body. Furthermore, this type of soap Works by removing the
+              dead calls on your face or body and giving it a fresh look.
+            </p>
             <p className="text-sm text-gray-600 mt-4">
-              <strong>Packing Available :</strong> 110ml.
-            </p>
-            <p className="text-sm text-gray-600 mt-2">
-              <strong>For Good Health & Body</strong>
-            </p>
-
-            <p className="text-sm text-gray-600 mt-4">
-              <strong>Category:</strong> Baby Care
+              <strong>Supply :</strong> 75gm Per PACK.
             </p>
           </div>
         </div>
         {/* review */}
-      </Link>
+      </div>
       {/* review page */}
       <div className="w-full mx-auto mt-10 mb-12 ">
         <h2 className="text-2xl font-semibold text-teal-600 mb-4">Reviews</h2>
         <p className="text-sm text-gray-600">
-          Be the first to review <strong>“Olimato Emollient Oil”</strong>
+          Be the first to review <strong>“INTHYON SOAP”</strong>
         </p>
         <p className="text-sm text-red-600 mb-4">
           Your email address will not be published. Required fields are marked{" "}
@@ -171,4 +177,4 @@ const ProductDetails = () => {
   );
 };
 
-export default ProductDetails;
+export default ProductDetails1;

@@ -15,12 +15,12 @@ const Swisskem = () => {
 
         {/* Right Side Content */}
         <div className="lg:w-1/2 w-full lg:p-16 flex flex-col justify-center items-center p-9">
-          <h1 className="text-3xl font-semibold text-blue-700 text-center lg:text-left">
-            WELCOME TO Swisskem Healthcare
+          <h1 className="text-3xl font-semibold uppercase text-blue-700 text-center lg:text-left">
+            WELCOME TO Inthy International
           </h1>
           <hr className="my-4 border-blue-300 w-16 mx-auto lg:mx-0" />
           <p className="text-gray-600 text-center lg:text-left mb-6">
-            Swisskem Healthcare launched business initially in India where in
+            Inthy International launched business initially in India where in
             solid steps has gained the Indian market showing conscientiousness
             and consistency for 2 decades. From the early days Soaps and Derma
             cosmetics were the core business and the portfolio was gradually

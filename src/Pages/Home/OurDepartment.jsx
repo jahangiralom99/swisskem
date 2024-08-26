@@ -9,8 +9,8 @@ const OurDepartment = () => {
       >
         {/* Header */}
         <div className="section absolute z-10 -top-8 left-1/2 transform -translate-x-1/2 ">
-          <button className="bg-[#283275] border-[3px] border-white text-white py-4 px-4 rounded-full shadow-lg">
-            FACTSHEET OF SWISSKEM HEALTHCARE.
+          <button className="bg-[#283275] uppercase border-[3px] border-white text-white py-4 px-4 rounded-full shadow-lg">
+            FACTSHEET OF Inthy International
           </button>
         </div>
         <div className="section flex flex-col lg:flex-row rounded-lg mt-8">

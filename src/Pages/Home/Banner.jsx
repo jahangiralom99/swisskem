@@ -20,7 +20,7 @@ const Banner = () => {
             <div className="section absolute top-1/2 left-12 md:left-24 lg:left-32 transform -translate-y-1/2 w-72 md:w-96 lg:w-[500px]">
               <div className="">
                 <h1 className="md:text-lg lg:text-2xl font-semibold text-purple-700 ">
-                  Welcome To Swisskem Healthcare
+                  Welcome To Inthy International
                 </h1>
                 <h2 className="md:text-3xl font-bold text-pink-500 mt-2">
                   Manufacture of Cosmetic & Dermatological Skin Care Products
@@ -37,7 +37,7 @@ const Banner = () => {
             <div className="section absolute top-1/2 left-12 md:left-24 lg:left-32 transform -translate-y-1/2 w-72 md:w-96 lg:w-[500px]">
               <div className="">
                 <h1 className="md:text-lg lg:text-2xl font-semibold text-purple-700 ">
-                  Welcome To Swisskem Healthcare
+                  Welcome To Inthy International
                 </h1>
                 <h2 className="md:text-3xl font-bold text-pink-500 mt-2">
                   Manufacture of Cosmetic & Dermatological Skin Care Products

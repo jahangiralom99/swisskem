@@ -45,14 +45,14 @@ const AboutUs = () => {
           {/* Text Section */}
           <div className="md:w-1/2">
             <h1 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
-              About Swisskem Healthcare
+              About Inthy International
             </h1>
             <p className="text-teal-400 text-lg mb-4">
-              Swisskem expresses the adventuring spirit of innovation &
-              extroversion.
+              Inthy International expresses the adventuring spirit of innovation
+              & extroversion.
             </p>
             <p className="text-gray-700 text-base">
-              Swisskem Healthcare launched business initially in India where in
+              Inthy International launched business initially in bd where in
               solid steps has gained the Indian market showing conscientiousness
               and consistency for 2 decades. From the early days Soaps and Derma
               cosmetics were the core business and the portfolio was gradually
@@ -86,17 +86,17 @@ const AboutUs = () => {
             Our Success Story
           </h2>
           <p className="text-gray-700 text-base">
-            Swisskem Healthcare established in 2001 aiming at developing,
+            Inthy International established in 2001 aiming at developing,
             producing and trading dermatological products and furthermore
             promoting those products through Medical Representative teams in
             respective medical specialists and trading through the
-            Pharmaceutical distribution channel. Since then, Swisskem Healthcare
-            has been closely cooperating with Indian professors and key Opinion
+            Pharmaceutical distribution channel. Since then, Inthy International
+            has been closely cooperating with bd professors and key Opinion
             Leaders and Universities for developing dermoceutical products that
-            treat a variety of skin disorders. Swisskem Healthcare development
-            was parallel to the evolution of dermatology in India. Swisskem
-            Healthcare awareness on dermocosmetics was recognized and thus led
-            to the installation of its own plant and business expansion.
+            treat a variety of skin disorders. Inthy International development
+            was parallel to the evolution of dermatology in bd. Inthy
+            International awareness on dermocosmetics was recognized and thus
+            led to the installation of its own plant and business expansion.
           </p>
         </div>
       </div>

@@ -21,18 +21,6 @@ const Navbar = () => {
       >
         Home
       </NavLink>
-      <NavLink
-        to="/about-us"
-        className={({ isActive, isPending }) =>
-          isPending
-            ? "pending"
-            : isActive
-            ? "active bg-[#283275] p-[15px] px-6"
-            : "p-[15px] px-6 hover:bg-[#283275]"
-        }
-      >
-        About Us
-      </NavLink>
       {/* <NavLink
         to="/f"
         className={({ isActive, isPending }) =>
@@ -75,7 +63,7 @@ const Navbar = () => {
                   All Product
                 </NavLink>
                 <NavLink
-                  to="/product/detail"
+                  to="/product/details1"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -87,7 +75,7 @@ const Navbar = () => {
                   INTHYON SOAP
                 </NavLink>
                 <NavLink
-                  to="/product/detail"
+                  to="/product/details2"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -99,7 +87,7 @@ const Navbar = () => {
                   INTHYSUN Aqua Gel
                 </NavLink>
                 <NavLink
-                  to="/product/detail"
+                  to="/product/details"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -111,7 +99,7 @@ const Navbar = () => {
                   INTHYZOL CREAM
                 </NavLink>
                 <NavLink
-                  to="/product/detail"
+                  to="/product/details"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -123,7 +111,7 @@ const Navbar = () => {
                   INTHYZOL SOAP
                 </NavLink>
                 <NavLink
-                  to="/product/detail"
+                  to="/product/details"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -135,7 +123,7 @@ const Navbar = () => {
                   INTHYZOL SHAMPOO
                 </NavLink>
                 <NavLink
-                  to="/product/detail"
+                  to="/product/details"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -147,7 +135,7 @@ const Navbar = () => {
                   INTHYGLOW CREAM
                 </NavLink>
                 <NavLink
-                  to="/product/detail"
+                  to="/product/details"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -162,30 +150,6 @@ const Navbar = () => {
             </div>
           </ul>
         </ul>
-      </NavLink>
-      <NavLink
-        to="/quality"
-        className={({ isActive, isPending }) =>
-          isPending
-            ? "pending"
-            : isActive
-            ? "active bg-[#283275] p-[15px] px-6"
-            : "p-[15px] px-6 hover:bg-[#283275]"
-        }
-      >
-        Quality
-      </NavLink>
-      <NavLink
-        to="/contact-us"
-        className={({ isActive, isPending }) =>
-          isPending
-            ? "pending"
-            : isActive
-            ? "active bg-[#283275] p-[15px] px-6"
-            : "p-[15px] px-6 hover:bg-[#283275]"
-        }
-      >
-        Contact us
       </NavLink>
       <NavLink
         to="/our-official"
@@ -235,6 +199,42 @@ const Navbar = () => {
       >
         Document
       </NavLink>
+      <NavLink
+        to="/quality"
+        className={({ isActive, isPending }) =>
+          isPending
+            ? "pending"
+            : isActive
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
+        }
+      >
+        Quality
+      </NavLink>
+      <NavLink
+        to="/about-us"
+        className={({ isActive, isPending }) =>
+          isPending
+            ? "pending"
+            : isActive
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
+        }
+      >
+        About Us
+      </NavLink>
+      <NavLink
+        to="/contact-us"
+        className={({ isActive, isPending }) =>
+          isPending
+            ? "pending"
+            : isActive
+            ? "active bg-[#283275] p-[15px] px-6"
+            : "p-[15px] px-6 hover:bg-[#283275]"
+        }
+      >
+        Contact us
+      </NavLink>
     </>
   );
 
@@ -252,7 +252,7 @@ const Navbar = () => {
         </div>
       ) : null}
       <div className="bg-[#1ad7e6] text-center lg:text-start">
-        <p className=" section p-4">GST No. 02AFQPG3910A1Z6</p>
+        <p className=" section p-1">GST No. 02AFQPG3910A1Z6</p>
       </div>
       {/* logo and phone number  */}
       <div className="flex flex-col lg:flex-row p-2 items-center gap-6 justify-between section">
