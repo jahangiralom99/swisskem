@@ -87,7 +87,7 @@ const Navbar = () => {
                   INTHYSUN Aqua Gel
                 </NavLink>
                 <NavLink
-                  to="/product/details"
+                  to="/product/details3"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -99,7 +99,7 @@ const Navbar = () => {
                   INTHYZOL CREAM
                 </NavLink>
                 <NavLink
-                  to="/product/details"
+                  to="/product/details4"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -111,7 +111,7 @@ const Navbar = () => {
                   INTHYZOL SOAP
                 </NavLink>
                 <NavLink
-                  to="/product/details"
+                  to="/product/details5"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -123,7 +123,7 @@ const Navbar = () => {
                   INTHYZOL SHAMPOO
                 </NavLink>
                 <NavLink
-                  to="/product/details"
+                  to="/product/details6"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -135,7 +135,7 @@ const Navbar = () => {
                   INTHYGLOW CREAM
                 </NavLink>
                 <NavLink
-                  to="/product/details"
+                  to="/product/details7"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"

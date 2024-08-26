@@ -1,7 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 // import ReactImageMagnify from "react-image-magnify";
-import image from "../../assets/2-2-removebg-preview.png";
+import image from "../../assets/Inthyglow Cream.png";
 
-const ProductDetails2 = () => {
+const ProductDetails6 = () => {
   return (
     <div className="section">
       <div className="flex flex-col md:flex-row md:items-start md:space-x-8 bg-white mt-12">
@@ -29,72 +30,98 @@ const ProductDetails2 = () => {
         </div>
         <div className="md:flex-1 text-left mt-4 md:mt-0">
           <h2 className="text-xl font-semibold text-teal-600">
-            INTHYSUN Aqua Gel
+            INTHYGLOW CREAM
           </h2>
-          <h4 className="text-sm">
-            Water Resistant & Oil Free Micronized Sunscreen Aqua Gel
-          </h4>
+          <h4 className="text-sm">Paraben Free For All Skin Type</h4>
           <p className="text-sm text-gray-600 mt-2">
-            <strong>INGREDIENTS :</strong> Melasma, Age Spots, Hyper
-            Pigmentation, Brightening & Lightening, Appearance of Dark Spots,
-            Produces Collagen, Post Acne Black Spots, Skin Damage From Sunlight,
-            Repair & Help Improve The Dull, Rejuvenation, Anti-Aging, Out
-            Looking Blank Problem, Hyper-Pigmentation Spots, Protect Skin From
-            Dryness, Maintain Moisture Level, Repair Skin, Lighten Sports,
-            Impove Uneven Skin Tone.
+            <strong>BENEFIT : </strong> Reducing the melanin production. More
+            radiant complexion. Moisturizing, Smoothening and whitening.
+            Nourishes the skin by hydrating and locking in moisture. Control
+            acne formation. Help reduce fine lines and wrinkles, and optimize
+            skin texture. Protect Skin From Dryness, maintain Moisture
+            Level,repair Skin, lighten Spots, improve Uneven Skin Tone. Best for
+            the use in hyper-pigmentation skin conditions including brown spots.
           </p>
           <div className="mt-2">
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-teal-600">COMPOSITION :</strong>{" "}
-              L-Glutathione, Kojic Acid Dipalmitate, Arbutin point Vitamin E,
-              Aloe Vera, Titanium Dioxide, Soap Noodles, Fragrance
+              <strong className="text-teal-600">INDICATIONS : </strong> Melasma,
+              4x whitening Action, Arbutin point Acne black spot, Brightening &
+              Lightening, Anti-Aging, Out looking black problem,
+              Hyper-pigmentation spots.
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-[#742b91]">DESCRIPTION :</strong> A skin
-              whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              <strong className="text-[#742b91]">INGREDIENTS:</strong> Aqua,
+              Stearic Acid, Cetyl Alcohol, Carbomer, Glycerin, Propylene Glycol,
+              Triethanolamine, Kojic Acid Dipalmitate, Arbutin, Licorice
+              Extract, Mulberry Extract, Lactic Acid, Vitamin C, Niacinamide,
+              L-Glutathione, Actiwhite Water and Glycerin (and) Surcose
+              Dilaurate (and) Polysorbate 20 (and) Pisum sativum (Pea) Extract),
+              DMDM Hydantoin, EDTA, Fragrance.
             </p>
             <p className="text-sm text-gray-600 mt-2">
               <strong className="text-[#742b91]">
                 Kojic Acid Dipalmitate:
               </strong>{" "}
-              A skin whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              Kojic acid dipalmitate: By inhibiting tyrosinase activity, Kojic
+              Acid Dipalmitate is capable of suppressing skin pigmentation. Its
+              ability to suppress melanin formation makes it effective in
+              whitening dark skin, or areas of dark skin.
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-red-500">Vitamin E:</strong> A skin
-              whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              <strong className="text-red-500">Arbutin : </strong> Arbutin is a
+              skin-brightening ingredient that targets dark spots,
+              hyperpigmentation, and scars. While it is less potent compared to
+              hydroquinone, it has a stronger safety profile.
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-[#00a54f]">L-Glutathione: </strong> A skin
-              whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              <strong className="text-[#00a54f]">Licorise extract: </strong>{" "}
+              Arbutin is a skin-brightening ingredient that targets dark spots,
+              hyperpigmentation, and scars. While it is less potent compared to
+              hydroquinone, it has a stronger safety profile with fewer risks of
+              side effects.
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-red-900">DIRECTION OF USE : </strong> A
-              skin whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              <strong className="text-[#00a54f]">Mulberry extract : </strong>{" "}
+              Lightens dark spots and skin discolouration. Improves the
+              appearance of uneven skin tones. Helps to protect the skin from
+              environmental factors. Moisturizes and nourishes the skin. Reduces
+              signs of premature ageing. Creates a lovely, radiant and glowing
+              complexion.
             </p>
             <p className="text-sm text-gray-600 mt-2">
+              <strong className="text-red-500">Vitamin C : </strong> Vitamin C
+              serum has many health benefits for your skin, including promoting
+              collagen production and protecting against sun damage. It's
+              helpful in lower dark pigmentation of the skin. Provides skin
+              hydration also.
+            </p>
+            <p className="text-sm text-gray-600 mt-2">
+              <strong className="text-red-700">L-glutathione : </strong>
+              Glutathione plays a significant role in keeping skin healthy and
+              young. It not only acts as an astonishing skin- brightening agent
+              but is also known to reduce wrinkles, fine lines and improve skin
+              elasticity. All these attributes of glutathione are due to its
+              amazing skin-protecting properties. Actiwhite Cream supports
+              lightening, Brightening & Extra glowing effect naturally by gently
+              penetrating the skin's surface. Natural ingredients work to sooth
+              and moisturize skin and support lightening.
+            </p>
+            <p className="text-sm text-gray-600 mt-2">
+              <strong className="text-red-900">DIRECTION OF USE : </strong>
+              After cleansing and toning, apply proper amount to palm and gently
+              pat until absorbed. Apply twice a day all over the face and neck
+              area in the morning and night or as directed by the physician.
+              [For External use only]
+            </p>
+            {/* <p className="text-sm text-gray-600 mt-2">
               <strong className="text-red-500">WARNINIGS : </strong> A skin
               whitening soap works by removing melanin from your skin’s
               epidermal layer, making it look white and fairer then other areas
               on the body. Furthermore, this type of soap Works by removing the
               dead calls on your face or body and giving it a fresh look.
-            </p>
+            </p> */}
             <p className="text-sm text-gray-600 mt-4">
-              <strong>Supply :</strong> 75gm Per PACK.
+              <strong>Supply :</strong> 20gm per tube.
             </p>
           </div>
         </div>
@@ -104,7 +131,7 @@ const ProductDetails2 = () => {
       <div className="w-full mx-auto mt-10 mb-12 ">
         <h2 className="text-2xl font-semibold text-teal-600 mb-4">Reviews</h2>
         <p className="text-sm text-gray-600">
-          Be the first to review <strong>“INTHYSUN Aqua Gel”</strong>
+          Be the first to review <strong>“INTHYGLOW CREAM”</strong>
         </p>
         <p className="text-sm text-red-600 mb-4">
           Your email address will not be published. Required fields are marked{" "}
@@ -177,4 +204,4 @@ const ProductDetails2 = () => {
   );
 };
 
-export default ProductDetails2;
+export default ProductDetails6;

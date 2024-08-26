@@ -1,7 +1,7 @@
 // import ReactImageMagnify from "react-image-magnify";
-import image from "../../assets/2-2-removebg-preview.png";
+import image from "../../assets/Screenshot_2024-08-19_131927-removebg-preview.png";
 
-const ProductDetails2 = () => {
+const ProductDetails5 = () => {
   return (
     <div className="section">
       <div className="flex flex-col md:flex-row md:items-start md:space-x-8 bg-white mt-12">
@@ -24,77 +24,70 @@ const ProductDetails2 = () => {
           <img
             src={image}
             alt="Olimato Emollient Oil"
-            className=" object-cover inline"
+            className="md:w-[60%] object-cover inline"
           />
         </div>
         <div className="md:flex-1 text-left mt-4 md:mt-0">
           <h2 className="text-xl font-semibold text-teal-600">
-            INTHYSUN Aqua Gel
+            INTHYZOL SHAMPOO
           </h2>
-          <h4 className="text-sm">
+          {/* <h4 className="text-sm">
             Water Resistant & Oil Free Micronized Sunscreen Aqua Gel
-          </h4>
+          </h4> */}
           <p className="text-sm text-gray-600 mt-2">
-            <strong>INGREDIENTS :</strong> Melasma, Age Spots, Hyper
-            Pigmentation, Brightening & Lightening, Appearance of Dark Spots,
-            Produces Collagen, Post Acne Black Spots, Skin Damage From Sunlight,
-            Repair & Help Improve The Dull, Rejuvenation, Anti-Aging, Out
-            Looking Blank Problem, Hyper-Pigmentation Spots, Protect Skin From
-            Dryness, Maintain Moisture Level, Repair Skin, Lighten Sports,
-            Impove Uneven Skin Tone.
+            <strong>TREATMENT FOR : </strong>Dandruff (Pityriasis capitis),
+            Itching & Oily scalp, All allergic condition, Tinea capitis,
+            Pityrosporal versicolor, Prevents Hair loss, Strengthens and
+            thickens hair point Blepharitis, Cradle cap, Eczema and Seborrhoeic
+            Dermatitis
           </p>
           <div className="mt-2">
             <p className="text-sm text-gray-600 mt-2">
               <strong className="text-teal-600">COMPOSITION :</strong>{" "}
-              L-Glutathione, Kojic Acid Dipalmitate, Arbutin point Vitamin E,
-              Aloe Vera, Titanium Dioxide, Soap Noodles, Fragrance
+              Ketoconazole ..............................00%w/v, Zinc Pyrithione
+              (ZPTO)..............100%w/v, Shampoo Base ..............Q.S. with
+              Biotin & aloevera
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-[#742b91]">DESCRIPTION :</strong> A skin
-              whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              <strong className="text-[#742b91] uppercase">
+                Ketoconazole :{" "}
+              </strong>
+              It is an azolo antifungal that works by preventing the growth of
+              fungus longer duration of action after the soap is washed out.
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-[#742b91]">
-                Kojic Acid Dipalmitate:
-              </strong>{" "}
-              A skin whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              <strong className="text-[#742b91]">Zinc pyrithione:</strong> It
+              has antifungal anti bacterial and antimicrobial properties that
+              can help seborrhoeic dermatitis, scalp psoriasis and acne. It can
+              inhibit the growth of yeast which is the main factor in dandruff.
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-red-500">Vitamin E:</strong> A skin
-              whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              <strong className="text-red-500">Aloe vera : </strong>
+              Aloe vera helps treat inflammation, wounds and burns. The
+              anti-allergic property of aloe vera is a useful in the treatment
+              of various skin diseases like eczema, psoriasis, itchy skin and so
+              on.
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-[#00a54f]">L-Glutathione: </strong> A skin
-              whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              <strong className="text-[#00a54f]">Biotin : </strong>
+              Biotin Stimulates keratin production in hair and Increases the
+              rate of follicle growth
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              <strong className="text-red-900">DIRECTION OF USE : </strong> A
-              skin whitening soap works by removing melanin from your skin’s
-              epidermal layer, making it look white and fairer then other areas
-              on the body. Furthermore, this type of soap Works by removing the
-              dead calls on your face or body and giving it a fresh look.
+              <strong className="text-red-900">DIRECTION OF USE : </strong>
+              Inthyzol shampoo should be used two (2) times in every week for
+              consecutive 2-4 weeks. To prevent dandruff further back its should
+              use again another 1-2 weeks (once/week)
             </p>
-            <p className="text-sm text-gray-600 mt-2">
+            {/* <p className="text-sm text-gray-600 mt-2">
               <strong className="text-red-500">WARNINIGS : </strong> A skin
               whitening soap works by removing melanin from your skin’s
               epidermal layer, making it look white and fairer then other areas
               on the body. Furthermore, this type of soap Works by removing the
               dead calls on your face or body and giving it a fresh look.
-            </p>
+            </p> */}
             <p className="text-sm text-gray-600 mt-4">
-              <strong>Supply :</strong> 75gm Per PACK.
+              <strong>Supply :</strong> 100 ml per bottle.
             </p>
           </div>
         </div>
@@ -104,7 +97,7 @@ const ProductDetails2 = () => {
       <div className="w-full mx-auto mt-10 mb-12 ">
         <h2 className="text-2xl font-semibold text-teal-600 mb-4">Reviews</h2>
         <p className="text-sm text-gray-600">
-          Be the first to review <strong>“INTHYSUN Aqua Gel”</strong>
+          Be the first to review <strong>“INTHYZOL SHAMPOO”</strong>
         </p>
         <p className="text-sm text-red-600 mb-4">
           Your email address will not be published. Required fields are marked{" "}
@@ -177,4 +170,4 @@ const ProductDetails2 = () => {
   );
 };
 
-export default ProductDetails2;
+export default ProductDetails5;

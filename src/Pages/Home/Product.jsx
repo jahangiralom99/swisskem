@@ -1,29 +1,34 @@
-import img1 from "../../assets/37.webp";
-import img2 from "../../assets/76.webp";
-import img3 from "../../assets/113-1.webp";
-import img4 from "../../assets/64.webp";
+import { Link } from "react-router-dom";
+import image1 from "../../assets/product/inthyon Soap.png";
+import image2 from "../../assets/product/Inthysun Psd.png";
+import image3 from "../../assets/product/Inthyzol luliconazol Cream.png";
+import image4 from "../../assets/product/Inthyzol Soap.png";
 
 const Product = () => {
   const products = [
     {
-      name: "Glytop-12 Lotion",
-      image: `${img1}`,
+      name: "INTHYON SOAP",
+      image: `${image1}`,
       rating: 0,
+      route: "/product/details1",
     },
     {
-      name: "Glytop-6 Lotion",
-      image: `${img2}`,
+      name: "INTHYSUN Aqua Gel",
+      image: `${image2}`,
       rating: 0,
+      route: "/product/details2",
     },
     {
-      name: "Humid Skin Cream",
-      image: `${img3}`,
+      name: "INTHYZOL CREAM",
+      image: `${image3}`,
       rating: 0,
+      route: "/product/details3",
     },
     {
-      name: "Medi-Plus Instant Hand Sanitizer",
-      image: `${img4}`,
+      name: "INTHYZOL SOAP",
+      image: `${image4}`,
       rating: 0,
+      route: "/product/details4",
     },
   ];
 
@@ -38,7 +43,11 @@ const Product = () => {
         <hr className="my-4 border-blue-300 w-16 mx-auto" />
         <div className="max-w-7xl mt-8 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {products.map((product, index) => (
-            <div key={index} className="bg-white overflow-hidden">
+            <Link
+              to={`${product.route}`}
+              key={index}
+              className="bg-white overflow-hidden"
+            >
               <img
                 className="w-full object-cover"
                 src={product.image}
@@ -55,7 +64,7 @@ const Product = () => {
                   READ MORE
                 </button>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

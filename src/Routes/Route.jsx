@@ -12,6 +12,10 @@ import AboutUs from "../Pages/AboutUs/AboutUs";
 import ProductDetails1 from "../Components/ProductDetails/ProductDetails1";
 import ProductDetails2 from "../Components/ProductDetails/ProductDetails2";
 import ProductDetails3 from "../Components/ProductDetails/ProductDetails3";
+import ProductDetails4 from "../Components/ProductDetails/ProductDetails4";
+import ProductDetails5 from "../Components/ProductDetails/ProductDetails5";
+import ProductDetails6 from "../Components/ProductDetails/ProductDetails6";
+import ProductDetails7 from "../Components/ProductDetails/ProductDetails7";
 
 const Route = createBrowserRouter([
   {
@@ -41,6 +45,22 @@ const Route = createBrowserRouter([
       {
         path: "/product/details3",
         element: <ProductDetails3 />,
+      },
+      {
+        path: "/product/details4",
+        element: <ProductDetails4 />,
+      },
+      {
+        path: "/product/details5",
+        element: <ProductDetails5 />,
+      },
+      {
+        path: "/product/details6",
+        element: <ProductDetails6 />,
+      },
+      {
+        path: "/product/details7",
+        element: <ProductDetails7 />,
       },
       {
         path: "/quality",
