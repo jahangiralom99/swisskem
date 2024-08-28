@@ -1,12 +1,12 @@
 import image from "../../assets/2-1.png";
-import ReactImageMagnify from "react-image-magnify";
+// import ReactImageMagnify from "react-image-magnify";
 
 const ProductDetails1 = () => {
   return (
     <div className="section">
       <div className="flex flex-col md:flex-row md:items-start md:space-x-8 bg-white mt-12">
         <div className="md:flex-1">
-          <ReactImageMagnify
+          {/* <ReactImageMagnify
             enlargedImagePosition="over"
             {...{
               smallImage: {
@@ -20,12 +20,12 @@ const ProductDetails1 = () => {
                 height: 600,
               },
             }}
-          />
-          {/* <img
+          /> */}
+          <img
             src={image}
             alt="Olimato Emollient Oil"
             className="w-full h-auto object-cover"
-          /> */}
+          />
         </div>
         <div className="md:flex-1 text-left mt-4 md:mt-0">
           <h2 className="text-xl font-semibold text-teal-600">INTHYON SOAP</h2>
