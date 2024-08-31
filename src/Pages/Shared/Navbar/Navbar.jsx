@@ -3,10 +3,12 @@ import logo from "../../../assets/WhatsApp Image 2024-08-19 at 18.56.57_1c51588e
 import { IoIosArrowDown, IoMdMailOpen } from "react-icons/io";
 import { Link, NavLink } from "react-router-dom";
 import { IoMenuSharp } from "react-icons/io5";
-import { useState } from "react";
+import {  useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  
+
   const navLinks = (
     <>
       <NavLink
